@@ -101,7 +101,7 @@ async function run() {
   } catch (error) {
     core.debug(error.message);
     core.setFailed(
-      `Something went wrong while sending a message to slack: ${error.message}`
+      `Something went wrong while sending a message to slack: ${error}`
     );
   }
 }
